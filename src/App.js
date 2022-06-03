@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/" component={FetchData} />
+        <Route exa path="/" component={FetchData} />
         <Route path="/data" component={Data} />
       </Switch>
     </>
